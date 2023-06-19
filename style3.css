@@ -1,0 +1,201 @@
+body{
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+li{
+    list-style-type: none;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+/*------------------------header---------------------------*/
+
+header{
+    height: 90px;
+    background-color:#222f3e;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left h2{
+    padding: 0 25px;
+    letter-spacing: 7px;
+    font-size: 30px;
+    color: white;
+}
+
+.header-left a{
+    padding: 0 25px;
+    float: left;
+    color: #c8d6e5;
+}
+
+/*----------------------main----------------------------------*/
+
+main{
+    height: 700px;
+    width: 100%;
+}
+
+.highlight h1{
+    font-size: 100px;
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 20px;
+}
+
+.highlight h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+.highlight img{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+span{
+    color: yellow;
+}
+
+
+/*--------------------------section - about-------------------------------*/
+
+section{
+    width: 100%;
+}
+
+.about{
+    height: 300px;
+    background-color: #c8d6e5;
+}
+
+.about h2{
+    text-align: center;
+    padding-top: 70px;
+}
+
+.about p{
+    text-align: justify;
+    margin: 0 80px;
+}
+
+
+/*---------------------------section - project-------------------------------*/
+
+
+.project{
+    height: 500px;
+}
+
+.project h2{
+    text-align: center;
+    padding-bottom: 40px;
+    margin-top: 40px;
+}
+
+.detail-project{
+    float: left;
+    width: 33%;
+}
+
+.detail-project img{
+    width: 250px;
+    position: relative;
+    margin: 0 70px;
+}
+
+.detail-project p{
+    text-align: center;
+    margin: 0 60px;
+}
+
+/*----------------------------section - form-------------------------------*/
+
+.form{
+    height: 400px;
+    background-color: #c8d6e5;
+    text-align: center;
+    
+}
+
+.form h2{
+    padding: 20px;
+    text-align: center;
+}
+
+.input-1{
+   padding: 10px;
+   margin: 0 auto;
+   display: block;
+   text-align: left;
+   width: 500px;
+   height: 30px;
+   color: #8395a7;
+   font-size: 12px;
+}
+
+.input-2{
+    padding: 10px;
+    margin: 10px auto;
+    width: 500px;
+    height: 30px;
+    text-align: left;
+    color: #8395a7;
+    font-size: 12px;
+}
+
+.contact-submit{
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 30px;
+    border: 1px solid #c8d6e5;
+    background-color: #feca57;
+    font-size: 16px;
+    font-weight: bold;
+    color: #576574 ;
+}
+
+
+/*--------------------footer----------------------------------*/
+
+.footer-container{
+    height: 200px;
+    background-color: #576574;
+    width: 100%;
+    color: white;
+    float: left;
+}
+
+.footer-container h2{
+    padding: 25px;
+    float: left;
+}
+
+.footer-container li{
+    color: white;
+    margin-top: 30px;
+    margin-left: 85%;
+    /* float: right; */
+}
